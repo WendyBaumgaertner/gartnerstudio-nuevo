@@ -90,10 +90,10 @@
         background-color: #2a4647;
         color: #e9e9ea;
         font-size: 20px;
-        box-shadow: 5px 8px 20px 0px #00000082; }
+        box-shadow: 5px 8px 20px 0px #00000082;
+        transition: 1s; }
         .banner-inicio .main-index .botones-index .btn-sp:hover {
           transform: scale(1.05);
-          transition: 1s;
           border: 1px solid #e9e9ea98; }
         .banner-inicio .main-index .botones-index .btn-sp .texto-negrita {
           font-family: ZonaPro-Bold; }
@@ -348,7 +348,7 @@
       height: 30px; }
 
 /* ----------MEDIA QUERIS---------- */
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   /* index */
   .deg-navbar {
     margin: auto; }

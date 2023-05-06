@@ -62,7 +62,7 @@ $blanco: #e9e9ea;
                 justify-content: space-between;
 
                 .marcador-actual {
-                    background-color: #501c1a;
+                    background-color: $bordo;
                     padding: 3px 5px;
                     border-radius: 20px;
 
@@ -74,7 +74,7 @@ $blanco: #e9e9ea;
                 .enlace-pag {
                     padding: 3px 5px;
                     text-decoration: none;
-                    color: #e9e9ea;
+                    color: $blanco;
 
                     &:hover {
                         font-family: ZonaPro-Bold;
@@ -118,7 +118,7 @@ $blanco: #e9e9ea;
             height: 650px;
             display: flex;
             text-align: center;
-            color: #e9e9ea;
+            color: $blanco;
             font-size: 40px;
             flex-direction: column;
             margin: auto;
@@ -142,14 +142,15 @@ $blanco: #e9e9ea;
                 padding: 20px 50px;
                 border: none;
                 border-radius: 10px;
-                background-color: #2a4647;
-                color: #e9e9ea;
+                background-color: $verde;
+                color: $blanco;
                 font-size: 20px;
                 box-shadow: 5px 8px 20px 0px #00000082;
+                transition: 1s;
 
                 &:hover {
                     transform: scale(1.05);
-                    transition: 1s;
+                    
                     border: 1px solid #e9e9ea98;
                 }
 
@@ -180,18 +181,18 @@ $blanco: #e9e9ea;
 
         .titulo-quienessomos {
             font-family: ZonaPro-Bold;
-            color: #e9e9ea;
+            color: $blanco;
             font-size: 36px;
             margin: 200px 125px 5px 125px;
-            border-left: 5px solid #e9e9ea;
+            border-left: 5px solid $blanco;
             padding-left: 20px;
         }
 
         .texto-quienessomos {
-            color: #e9e9ea;
+            color: $blanco;
             margin: 15px 100px 5px 125px;
             width: 450px;
-            border-left: 1px solid #e9e9ea;
+            border-left: 1px solid $blanco;
             padding-left: 20px;
         }
     }
@@ -212,11 +213,11 @@ $blanco: #e9e9ea;
 
     h1 {
         font-family: ZonaPro-Bold;
-        color: #e9e9ea;
+        color: $blanco;
         font-size: 36px;
         width: 800px;
         margin: 80px auto 50px auto;
-        border-left: 5px solid #e9e9ea;
+        border-left: 5px solid $blanco;
         padding-left: 20px;
     }
 
@@ -286,12 +287,12 @@ $blanco: #e9e9ea;
 
     h1 {
         font-family: ZonaPro-Bold;
-        color: #e9e9ea;
+        color: $blanco;
         font-size: 36px;
         margin: 0 50px;
         padding-left: 20px;
         width: 598px;
-        border-left: 5px solid #e9e9ea;
+        border-left: 5px solid $blanco;
     }
 
     .ancho-ac {
@@ -303,7 +304,7 @@ $blanco: #e9e9ea;
         justify-content: space-around;
 
         .accordion-item {
-            background-color: #3c2b42;
+            background-color: $violeta;
             border: none;
             border-radius: 5px;
             box-shadow: 5px 5px 8px 2px #0814133d;
@@ -374,11 +375,11 @@ $blanco: #e9e9ea;
 
     h1 {
         font-family: ZonaPro-Bold;
-        color: #e9e9ea;
+        color: $blanco;
         font-size: 24px;
         width: 600px;
         margin: auto;
-        border-left: 5px solid #e9e9ea;
+        border-left: 5px solid $blanco;
         padding-left: 20px;
     }
 
@@ -404,14 +405,14 @@ $blanco: #e9e9ea;
 
                 &:focus {
                     background-color: #e9e9eaa6;
-                    border: 2px solid #3c2b42;
+                    border: 2px solid $violeta;
                     outline: 0;
                     box-shadow: 4px 4px 10px 1px #0814133d;
                 }
             }
 
             .texto-input {
-                color: #e9e9ea;
+                color: $blanco;
             }
         }
 
@@ -419,7 +420,7 @@ $blanco: #e9e9ea;
 
             .sub-form {
                 font-size: 16px;
-                color: #e9e9ea;
+                color: $blanco;
                 margin-bottom: 8px;
             }
 
@@ -439,7 +440,7 @@ $blanco: #e9e9ea;
                         width: 120px;
 
                         p {
-                            color: #e9e9ea;
+                            color: $blanco;
                             margin: auto;
                             font-size: 14px;
                         }
@@ -456,7 +457,7 @@ $blanco: #e9e9ea;
                         margin: 4px 0 0 4px;
                         border: none;
                         border-radius: 5px;
-                        accent-color: #501c1a;
+                        accent-color: $bordo;
                     }
                 }
             }
@@ -466,7 +467,7 @@ $blanco: #e9e9ea;
             .mb-3 {
                 .sub-form {
                     font-size: 16px;
-                    color: #e9e9ea;
+                    color: $blanco;
                     margin-bottom: 8px;
                 }
 
@@ -535,7 +536,7 @@ $blanco: #e9e9ea;
 /* ----------MEDIA QUERIS---------- */
 
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 
     /* index */
 
