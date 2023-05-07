@@ -1,0 +1,86 @@
+
+.fondo-servicios {
+    background-image: url(../recursos/fondo-servicios.png);
+    min-height: 100vh;
+}
+
+.main-servicios {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+        font-family: ZonaPro-Bold;
+        color: $blanco;
+        font-size: 36px;
+        margin: 0 50px;
+        padding-left: 20px;
+        width: 598px;
+        border-left: 5px solid $blanco;
+    }
+
+    .ancho-ac {
+        width: 600px;
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+
+        .accordion-item {
+            background-color: $violeta;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 5px 5px 8px 2px #0814133d;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.05);
+
+                box-shadow: 5px 5px 8px 2px #08141377;
+                border: 1px solid #e9e9ea98;
+            }
+
+            #servicio1 {
+                margin: 0;
+                height: 100px;
+
+                .btn-servicio {
+                    height: 100px;
+                    width: 598px;
+                    background-color: #3c2b42;
+                    border: none;
+                    border-radius: 5px;
+
+                    .img-serv {
+                        display: flex;
+                        color: #e9e9ea;
+                        font-size: 20px;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 330px;
+
+                        img {
+                            width: 80px;
+                            height: 80px;
+                        }
+
+                        p {
+                            margin: 0;
+                            width: 145px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            .texto-servicio {
+                color: #e9e9ea9c;
+                border-top: 1px solid #e9e9ea41;
+            }
+
+        }
+    }
+}

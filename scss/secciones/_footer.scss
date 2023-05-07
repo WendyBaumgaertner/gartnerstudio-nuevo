@@ -1,0 +1,23 @@
+.footer-index {
+    min-height: 5vh;
+    display: flex;
+    bottom: 0px;
+    width: auto;
+    border-top: 2px solid #e9e9ea41;
+
+    .lista-redes {
+        list-style: none;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 250px;
+        height: 30px;
+        padding: 0;
+        align-items: flex-end;
+
+        .logos-footer {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

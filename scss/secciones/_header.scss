@@ -1,0 +1,78 @@
+.header-principal {
+
+    .navbar {
+        min-height: 10vh;
+
+        .navbar-brand {
+            margin: 10px 0 10px 0px;
+
+            img {
+                height: 40px;
+            }
+        }
+
+        .navbar-toggler {
+            &:focus {
+                box-shadow: none;
+            }
+
+            .navbar-toggler-icon {
+                background-image: url(../recursos/menu-hamb.png);
+            }
+        }
+    }
+
+    .navbar-expand-lg {
+        justify-content: flex-end;
+
+        .navbar-collapse {
+            justify-content: flex-end;
+
+            .navbar-nav {
+                height: 65px;
+                align-items: center;
+                width: 550px;
+                justify-content: space-between;
+
+                .marcador-actual {
+                    background-color: $bordo;
+                    padding: 3px 5px;
+                    border-radius: 20px;
+
+                    &:hover {
+                        padding: 3px 5px;
+                    }
+                }
+
+                .enlace-pag {
+                    padding: 3px 5px;
+                    text-decoration: none;
+                    color: $blanco;
+
+                    &:hover {
+                        font-family: ZonaPro-Bold;
+                    }
+                }
+
+                .marcador {
+                    padding: 3px 5px;
+                    border-radius: 20px;
+
+                    &:hover {
+                        background-color: #501c1a7e;
+                        padding: 3px 5px;
+                        border-radius: 20px;
+                        font-family: ZonaPro-Bold;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .deg-navbar {
+        background-image: linear-gradient(#030303c7, #08141300);
+        justify-content: flex-end;
+    }
+
+}

@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+
+    /* index */
+
+    .deg-navbar {
+        margin: auto;
+    }
+
+    .navbar-nav {
+        height: 200px;
+        width: 100vw;
+        justify-content: space-around;
+
+    }
+
+    .enlace-pag {
+        font-size: 14px;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+    }
+
+    .nombre-negrita {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 25px;
+    }
+
+    .logos-footer {
+        width: 25px;
+        height: 25px;
+    }
+
+    .botones-index {
+        flex-direction: column;
+        height: 115px;
+        justify-content: space-between;
+    }
+
+
+    .btn-sp {
+        margin: auto;
+        padding: 14px 0px;
+        font-size: 14px;
+        width: 380px;
+    }
+
+    /* Sobre nosotros */
+
+    .titulo-quienessomos {
+        font-size: 30px;
+        margin-top: 90px;
+        margin-left: 60px;
+    }
+
+    .texto-quienessomos {
+        font-size: 14px;
+        width: 340px;
+        margin-left: 60px;
+        padding-right: 39px;
+    }
+
+    .fondo-sobrenosotros {
+        background-position: 830px;
+    }
+}

@@ -1,0 +1,55 @@
+.banner-inicio {
+    background-image: url(../recursos/fondo-principal.png);
+    height: 100vh;
+    background-size: cover;
+
+    .main-index {
+        min-height: 85vh;
+
+        .titulo-principal {
+            height: 650px;
+            display: flex;
+            text-align: center;
+            color: $blanco;
+            font-size: 40px;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+
+            .nombre-negrita {
+                font-family: ZonaPro-Bold;
+                font-size: 85px;
+            }
+        }
+
+        .botones-index {
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+            .btn-sp {
+                margin: 0 120px;
+                padding: 20px 50px;
+                border: none;
+                border-radius: 10px;
+                background-color: $verde;
+                color: $blanco;
+                font-size: 20px;
+                box-shadow: 5px 8px 20px 0px #00000082;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.05);
+                    
+                    border: 1px solid #e9e9ea98;
+                }
+
+                .texto-negrita {
+                    font-family: ZonaPro-Bold;
+                }
+            }
+        }
+    }
+}

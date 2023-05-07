@@ -11,7 +11,6 @@
   padding: 0;
   font-family: ZonaPro-Regular; }
 
-/* ---------- HEADER----------*/
 .header-principal .navbar {
   min-height: 10vh; }
   .header-principal .navbar .navbar-brand {
@@ -57,7 +56,6 @@
   background-image: linear-gradient(#030303c7, #08141300);
   justify-content: flex-end; }
 
-/*----------MAIN----------*/
 .banner-inicio {
   background-image: url(../recursos/fondo-principal.png);
   height: 100vh;
@@ -98,7 +96,6 @@
         .banner-inicio .main-index .botones-index .btn-sp .texto-negrita {
           font-family: ZonaPro-Bold; }
 
-/* --------------------------------------------------- */
 .fondo-sobrenosotros {
   background-image: url(../recursos/fondo-sobrenosotros.png);
   height: 100vh;
@@ -123,7 +120,6 @@
       border-left: 1px solid #e9e9ea;
       padding-left: 20px; }
 
-/* --------------------------------------------------- */
 .fondo-proyectos {
   background-image: url(../recursos/fondo-proyectos.png);
   min-height: 100vh;
@@ -170,7 +166,6 @@
       grid-area: proyecto4;
       background-image: url(../recursos/proyecto4.png); }
 
-/* --------------------------------------------------- */
 .fondo-servicios {
   background-image: url(../recursos/fondo-servicios.png);
   min-height: 100vh; }
@@ -233,7 +228,6 @@
         color: #e9e9ea9c;
         border-top: 1px solid #e9e9ea41; }
 
-/* --------------------------------------------------- */
 .fondo-contacto {
   background-image: url(../recursos/fondo-contacto.png);
   min-height: 100vh; }
@@ -327,7 +321,6 @@
         transform: scale(1.02);
         border: 1px solid #e9e9ea98; }
 
-/* ----------FOOTER---------- */
 .footer-index {
   min-height: 5vh;
   display: flex;
@@ -347,7 +340,6 @@
       width: 30px;
       height: 30px; }
 
-/* ----------MEDIA QUERIS---------- */
 @media (max-width: 768px) {
   /* index */
   .deg-navbar {
