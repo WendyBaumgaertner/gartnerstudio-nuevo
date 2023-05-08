@@ -3,6 +3,12 @@
     .navbar {
         min-height: 10vh;
 
+        .container-fluid {
+            .offcanvas-header {
+                justify-content: flex-end;
+            }
+        }
+
         .navbar-brand {
             margin: 10px 0 10px 0px;
 
@@ -18,6 +24,7 @@
 
             .navbar-toggler-icon {
                 background-image: url(../recursos/menu-hamb.png);
+                
             }
         }
     }
@@ -25,7 +32,7 @@
     .navbar-expand-lg {
         justify-content: flex-end;
 
-        .navbar-collapse {
+        .offcanvas-body {
             justify-content: flex-end;
 
             .navbar-nav {
@@ -38,16 +45,13 @@
                     background-color: $bordo;
                     padding: 3px 5px;
                     border-radius: 20px;
-
-                    &:hover {
-                        padding: 3px 5px;
-                    }
+                    
                 }
 
                 .enlace-pag {
                     padding: 3px 5px;
                     text-decoration: none;
-                    color: $blanco;
+                    color: $blanco; 
 
                     &:hover {
                         font-family: ZonaPro-Bold;

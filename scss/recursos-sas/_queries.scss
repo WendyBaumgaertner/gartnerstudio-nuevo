@@ -1,0 +1,273 @@
+@media (max-width: 992px) {
+
+    /* index */
+
+
+    .header-principal {
+        .deg-navbar {
+            margin: auto;
+
+            .offcanvas {
+                background-color: $violeta;
+                width: 200px;
+
+                .offcanvas-header {
+                    .btn-close {
+                        background-image: url(/recursos/close-icon.svg);
+                        background-size: 25px;
+                        box-shadow: none;
+                    }
+                }
+
+                .offcanvas-body {
+                    padding: 20px 0;
+
+                    .navbar-nav {
+                        width: 320px;
+                        height: 190px;
+                    }
+                }
+
+            }
+
+            .navbar-brand {
+                img {
+                    height: 35px;
+                }
+            }
+
+            .navbar-nav {
+                height: 200px;
+                width: 100vw;
+                justify-content: space-around;
+
+                .marcador-actual {
+                    text-align: center;
+                    width: 300px;
+                    background-color: $bordo;
+                    padding: 3px 5px;
+                    border-radius: 20px;
+                    font-size: 14px;
+                }
+
+                .marcador {
+                    font-size: 14px;
+                    text-align: center;
+
+                    &:hover {
+                        width: 300px;
+                    }
+
+
+
+                    .pag-actual {
+                        font-family: ZonaPro-Bold;
+                    }
+                }
+
+
+
+
+            }
+
+            .navbar-toggler {
+                .navbar-toggler-icon {
+                    width: 25px;
+                }
+            }
+        }
+    }
+
+    .banner-inicio {
+        .main-index {
+            .titulo-principal {
+                height: 600px;
+
+                .nombre-negrita {
+                    font-size: 40px;
+                }
+
+                .subtitulo {
+                    font-size: 22px;
+                }
+            }
+
+            .botones-index {
+                flex-direction: column;
+                height: 115px;
+                justify-content: space-between;
+
+                .btn-sp {
+                    margin: auto;
+                    padding: 14px 0px;
+                    font-size: 14px;
+                    width: 380px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+    .footer-index {
+        .lista-redes {
+            .logos-footer {
+                width: 25px;
+                height: 25px;
+                align-items: center;
+            }
+        }
+    }
+
+
+
+
+    /* Sobre nosotros */
+
+
+    .fondo-sobrenosotros {
+        background-position: 830px;
+
+        .main-sobrenosotros {
+
+            .titulo-quienessomos {
+                font-size: 30px;
+                margin-top: 90px;
+                margin-left: 60px;
+            }
+
+            .texto-quienessomos {
+                font-size: 14px;
+                width: 340px;
+                margin-left: 60px;
+                padding-right: 39px;
+            }
+        }
+    }
+
+    /* Proyectos */
+
+    .fondo-proyectos {
+        .main-proyectos {
+            .titulo-proyectos {
+                font-size: 30px;
+                width: 400px;
+            }
+
+            .img-proyectos {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                width: 400px;
+                height: 1400px;
+                grid-template-areas:
+                    "proyecto1"
+                    "proyecto2"
+                    "proyecto3"
+                    "proyecto4"
+                ;
+            }
+
+        }
+    }
+
+    /* Servicios */
+
+    .fondo-servicios {
+        .main-servicios {
+
+            .titulo-servicios {
+                font-size: 30px;
+                width: 390px;
+                margin: 0px auto;
+            }
+
+            .ancho-ac {
+                margin: 0px auto;
+                width: 400px;
+                height: 480px;
+
+                .accordion-item {
+                    #servicio1 {
+                        height: 80px;
+
+                        .btn-servicio {
+                            width: 380px;
+                            height: 80px;
+
+                            .img-serv {
+                                p {
+                                    font-size: 14px;
+                                }
+
+                                img {
+                                    width: 50px;
+                                    height: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+    }
+
+    /* Contacto */
+
+    .fondo-contacto {
+        .main-contacto {
+
+            .titulo-contacto{
+                font-size: 20px;
+                margin: 15px auto;
+                width: 380px;
+            }
+
+            .form-general{
+                width: 380px;
+
+                .input-completar{
+                    .form-floating{
+                        .texto-input{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .check-list{
+                    .check-servicios{
+                        .check-serv{
+                            .label-serv{
+                                width: 80px;
+                                img {
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                                p {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .input-selectarea{
+                    .input-group{
+                        .tx-area{
+                            &::placeholder{
+                                font-size: 12px;
+                                color: $blanco;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,141 +1,142 @@
 .fondo-contacto {
     background-image: url(../recursos/fondo-contacto.png);
     min-height: 100vh;
-}
 
-.main-contacto {
-    min-height: 85vh;
-    display: flex;
-    flex-direction: column;
-
-    h1 {
-        font-family: ZonaPro-Bold;
-        color: $blanco;
-        font-size: 24px;
-        width: 600px;
-        margin: auto;
-        border-left: 5px solid $blanco;
-        padding-left: 20px;
-    }
-
-    .form-general {
+    .main-contacto {
+        min-height: 85vh;
         display: flex;
-        height: 650px;
         flex-direction: column;
-        width: 600px;
-        margin: auto;
-        justify-content: space-around;
 
-        .input-completar {
-            display: flex;
-            flex-direction: column;
-            height: 200px;
-            justify-content: space-between;
-
-            .fondo-input {
-                background-color: #e9e9ea33;
-                border: none;
-                border-radius: 5px;
-                transition: 1s;
-
-                &:focus {
-                    background-color: #e9e9eaa6;
-                    border: 2px solid $violeta;
-                    outline: 0;
-                    box-shadow: 4px 4px 10px 1px #0814133d;
-                }
-            }
-
-            .texto-input {
-                color: $blanco;
-            }
+        .titulo-contacto {
+            font-family: ZonaPro-Bold;
+            color: $blanco;
+            font-size: 24px;
+            width: 600px;
+            margin: auto;
+            border-left: 5px solid $blanco;
+            padding-left: 20px;
         }
 
-        .check-list {
+        .form-general {
+            display: flex;
+            height: 650px;
+            flex-direction: column;
+            width: 600px;
+            margin: auto;
+            justify-content: space-around;
 
-            .sub-form {
-                font-size: 16px;
-                color: $blanco;
-                margin-bottom: 8px;
-            }
-
-            .check-servicios {
+            .input-completar {
                 display: flex;
+                flex-direction: column;
+                height: 200px;
                 justify-content: space-between;
 
-                .check-serv {
-                    display: flex;
+                .fondo-input {
                     background-color: #e9e9ea33;
+                    border: none;
                     border-radius: 5px;
-                    flex-direction: column;
+                    transition: 1s;
 
-                    .label-serv {
-                        text-align: center;
-                        margin: auto;
-                        width: 120px;
-
-                        p {
-                            color: $blanco;
-                            margin: auto;
-                            font-size: 14px;
-                        }
-
-                        img {
-                            width: 60px;
-                            height: 60px;
-                        }
-                    }
-
-                    .inp-serv {
-                        width: 15px;
-                        height: 15px;
-                        margin: 4px 0 0 4px;
-                        border: none;
-                        border-radius: 5px;
-                        accent-color: $bordo;
+                    &:focus {
+                        background-color: #e9e9eaa6;
+                        border: 2px solid $violeta;
+                        outline: 0;
+                        box-shadow: 4px 4px 10px 1px #0814133d;
                     }
                 }
-            }
-        }
 
-        .input-selectarea {
-            .mb-3 {
+                .texto-input {
+                    color: $blanco;
+                }
+            }
+
+            .check-list {
+
                 .sub-form {
                     font-size: 16px;
                     color: $blanco;
                     margin-bottom: 8px;
                 }
 
-                .sel-arch {
-                    background-color: #e9e9ea33;
-                    border: none;
+                .check-servicios {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .check-serv {
+                        display: flex;
+                        background-color: #e9e9ea33;
+                        border-radius: 5px;
+                        flex-direction: column;
+
+                        .label-serv {
+                            text-align: center;
+                            margin: auto;
+                            width: 120px;
+
+                            p {
+                                color: $blanco;
+                                margin: auto;
+                                font-size: 14px;
+                            }
+
+                            img {
+                                width: 60px;
+                                height: 60px;
+                            }
+                        }
+
+                        .inp-serv {
+                            width: 15px;
+                            height: 15px;
+                            margin: 4px 0 0 4px;
+                            border: none;
+                            border-radius: 5px;
+                            accent-color: $bordo;
+                        }
+                    }
                 }
             }
 
-            .input-group {
-                .tx-area {
-                    background-color: #e9e9ea33;
-                    border-radius: 5px;
-                    border: none;
+            .input-selectarea {
+                .mb-3 {
+                    .sub-form {
+                        font-size: 16px;
+                        color: $blanco;
+                        margin-bottom: 8px;
+                    }
+
+                    .sel-arch {
+                        background-color: #e9e9ea33;
+                        border: none;
+                    }
+                }
+
+                .input-group {
+                    .tx-area {
+                        background-color: #e9e9ea33;
+                        border-radius: 5px;
+                        border: none;
+                        color: $blanco;
+                    }
                 }
             }
-        }
 
-        .btn-submit {
-            background-color: #501c1a;
-            border: none;
-            height: 40px;
-            border-radius: 5px;
-            color: #e9e9ea;
-            box-shadow: 1px 2px 6px 1px #08141377;
-            transition: 1s;
+            .btn-submit {
+                background-color: #501c1a;
+                border: none;
+                height: 40px;
+                border-radius: 5px;
+                color: #e9e9ea;
+                box-shadow: 1px 2px 6px 1px #08141377;
+                transition: 1s;
 
-            &:hover {
-                transform: scale(1.02);
-                border: 1px solid #e9e9ea98;
+                &:hover {
+                    transform: scale(1.02);
+                    border: 1px solid #e9e9ea98;
 
+                }
             }
-        }
 
+        }
     }
 }

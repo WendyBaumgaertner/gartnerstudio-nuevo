@@ -1,4 +1,4 @@
-@import "./recursos/vars";
+@import "./recursos-sas/vars";
 
 @font-face {
     font-family: ZonaPro-Regular;
@@ -10,7 +10,7 @@
     src: url(../recursos/ZonaPro-Bold.ttf);
 }
 
-@import "./recursos/reset";
+@import "./recursos-sas/reset";
 
 @import "./secciones/header";
 
@@ -26,4 +26,4 @@
 
 @import "./secciones/footer";
 
-@import "./recursos/queries";
+@import "./recursos-sas/queries";
