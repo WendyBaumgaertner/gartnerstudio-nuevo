@@ -50,7 +50,7 @@
         .header-principal .navbar-expand-lg .offcanvas-body .navbar-nav .marcador:hover {
           background-color: #501c1a7e;
           padding: 3px 5px;
-          border-radius: 20px;
+          border-radius: 5px;
           font-family: ZonaPro-Bold; }
 
 .header-principal .deg-navbar {
@@ -309,7 +309,7 @@
         border: none;
         color: #e9e9ea; }
       .fondo-contacto .main-contacto .form-general .btn-submit {
-        background-color: #501c1a;
+        background-color: #3c2b42;
         border: none;
         height: 40px;
         border-radius: 5px;
