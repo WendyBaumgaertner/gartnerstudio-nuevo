@@ -303,11 +303,19 @@
       .fondo-contacto .main-contacto .form-general .input-selectarea .mb-3 .sel-arch {
         background-color: #e9e9ea33;
         border: none; }
-      .fondo-contacto .main-contacto .form-general .input-selectarea .input-group .tx-area {
-        background-color: #e9e9ea33;
-        border-radius: 5px;
-        border: none;
-        color: #e9e9ea; }
+      .fondo-contacto .main-contacto .form-general .input-selectarea .input-group {
+        box-shadow: none; }
+        .fondo-contacto .main-contacto .form-general .input-selectarea .input-group .tx-area {
+          background-color: #e9e9ea33;
+          border-radius: 5px;
+          border: none;
+          color: #e9e9ea;
+          transition: 1s; }
+          .fondo-contacto .main-contacto .form-general .input-selectarea .input-group .tx-area:focus {
+            background-color: #e9e9eaa6;
+            border: 2px solid #3c2b42;
+            outline: 0;
+            box-shadow: 4px 4px 10px 1px #0814133d; }
       .fondo-contacto .main-contacto .form-general .btn-submit {
         background-color: #3c2b42;
         border: none;

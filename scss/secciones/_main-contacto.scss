@@ -112,11 +112,20 @@
                 }
 
                 .input-group {
+                    box-shadow: none;
                     .tx-area {
                         background-color: #e9e9ea33;
                         border-radius: 5px;
                         border: none;
                         color: $blanco;
+                        transition: 1s;
+
+                        &:focus {
+                            background-color: #e9e9eaa6;
+                            border: 2px solid $violeta;
+                            outline: 0;
+                            box-shadow: 4px 4px 10px 1px #0814133d;
+                        }
                     }
                 }
             }
