@@ -75,6 +75,8 @@
       .banner-inicio .main-index .titulo-principal .nombre-negrita {
         font-family: ZonaPro-Bold;
         font-size: 85px; }
+      .banner-inicio .main-index .titulo-principal .animate__fadeInDown {
+        animation-duration: 2s; }
     .banner-inicio .main-index .botones-index {
       height: 220px;
       display: flex;
