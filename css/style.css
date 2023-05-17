@@ -107,11 +107,11 @@
         width: 80px; }
 
 .fondo-sobrenosotros {
-  background-image: url(../recursos/fondo-sobrenosotros.png);
+  background-image: url(../../recursos/fondo-sobrenosotros.png);
   height: 100vh;
   background-size: cover; }
   .fondo-sobrenosotros .main-sobrenosotros {
-    min-height: 85vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -129,6 +129,15 @@
       width: 450px;
       border-left: 1px solid #e9e9ea;
       padding-left: 20px; }
+    .fondo-sobrenosotros .main-sobrenosotros .animate__slideInLeft {
+      animation-duration: 2s; }
+    .fondo-sobrenosotros .main-sobrenosotros .wpp-float {
+      position: fixed;
+      right: 40px;
+      bottom: 30px; }
+      .fondo-sobrenosotros .main-sobrenosotros .wpp-float img {
+        height: 80px;
+        width: 80px; }
 
 .fondo-proyectos {
   background-image: url(../recursos/fondo-proyectos.png);
