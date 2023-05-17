@@ -1,5 +1,5 @@
 .banner-inicio {
-    background-image: url(../recursos/fondo-principal.png);
+    background-image: url(../../recursos/backg-main.png);
     height: 100vh;
     background-size: cover;
 
@@ -23,15 +23,15 @@
         }
 
         .botones-index {
-            height: 70px;
+            height: 220px;
             display: flex;
             justify-content: center;
             align-items: center;
             margin: auto;
 
             .btn-sp {
-                margin: 0 120px;
-                padding: 20px 50px;
+                margin: 0 290px;
+                padding: 30px 70px;
                 border: none;
                 border-radius: 10px;
                 background-color: $verde;
@@ -42,13 +42,24 @@
 
                 &:hover {
                     transform: scale(1.05);
-                    
+
                     border: 1px solid #e9e9ea98;
                 }
 
                 .texto-negrita {
                     font-family: ZonaPro-Bold;
                 }
+            }
+        }
+
+        .wpp-float {
+            position: fixed;
+            right: 40px;
+            bottom: 30px;
+            
+            img{
+                height: 80px;
+                width: 80px;
             }
         }
     }

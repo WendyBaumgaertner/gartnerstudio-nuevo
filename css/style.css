@@ -58,7 +58,7 @@
   justify-content: flex-end; }
 
 .banner-inicio {
-  background-image: url(../recursos/fondo-principal.png);
+  background-image: url(../../recursos/backg-main.png);
   height: 100vh;
   background-size: cover; }
   .banner-inicio .main-index {
@@ -76,14 +76,14 @@
         font-family: ZonaPro-Bold;
         font-size: 85px; }
     .banner-inicio .main-index .botones-index {
-      height: 70px;
+      height: 220px;
       display: flex;
       justify-content: center;
       align-items: center;
       margin: auto; }
       .banner-inicio .main-index .botones-index .btn-sp {
-        margin: 0 120px;
-        padding: 20px 50px;
+        margin: 0 290px;
+        padding: 30px 70px;
         border: none;
         border-radius: 10px;
         background-color: #2a4647;
@@ -96,6 +96,13 @@
           border: 1px solid #e9e9ea98; }
         .banner-inicio .main-index .botones-index .btn-sp .texto-negrita {
           font-family: ZonaPro-Bold; }
+    .banner-inicio .main-index .wpp-float {
+      position: fixed;
+      right: 40px;
+      bottom: 30px; }
+      .banner-inicio .main-index .wpp-float img {
+        height: 80px;
+        width: 80px; }
 
 .fondo-sobrenosotros {
   background-image: url(../recursos/fondo-sobrenosotros.png);
@@ -329,23 +336,52 @@
           border: 1px solid #e9e9ea98; }
 
 .footer-index {
-  min-height: 5vh;
+  min-height: 20vh;
   display: flex;
   bottom: 0px;
   width: auto;
-  border-top: 2px solid #e9e9ea41; }
-  .footer-index .lista-redes {
-    list-style: none;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    width: 250px;
-    height: 30px;
-    padding: 0;
-    align-items: flex-end; }
-    .footer-index .lista-redes .logos-footer {
-      width: 30px;
-      height: 30px; }
+  border-top: 2px solid #e9e9ea41;
+  padding: 0 70px;
+  background-color: #3c2b42;
+  color: #e9e9ea; }
+  .footer-index .footer-contactanos {
+    margin: 60px; }
+    .footer-index .footer-contactanos h2 {
+      font-size: 20px;
+      font-family: ZonaPro-Bold; }
+    .footer-index .footer-contactanos .lista-contactanos {
+      list-style: none;
+      padding: 0; }
+      .footer-index .footer-contactanos .lista-contactanos li {
+        display: flex;
+        margin-top: 25px;
+        opacity: 0.8; }
+        .footer-index .footer-contactanos .lista-contactanos li:hover {
+          opacity: 1; }
+        .footer-index .footer-contactanos .lista-contactanos li img {
+          margin-right: 10px; }
+        .footer-index .footer-contactanos .lista-contactanos li p {
+          margin: 0; }
+  .footer-index .footer-seguinos {
+    margin: 60px; }
+    .footer-index .footer-seguinos h2 {
+      font-size: 20px;
+      font-family: ZonaPro-Bold; }
+    .footer-index .footer-seguinos .lista-redes {
+      list-style: none;
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+      width: 140px;
+      height: 40px;
+      padding: 0;
+      align-items: flex-end; }
+      .footer-index .footer-seguinos .lista-redes .logos-footer {
+        width: 30px;
+        height: 30px;
+        opacity: 0.8; }
+        .footer-index .footer-seguinos .lista-redes .logos-footer:hover {
+          opacity: 1; }
 
 @media (max-width: 992px) {
   /* index */

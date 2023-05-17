@@ -1,23 +1,73 @@
 .footer-index {
-    min-height: 5vh;
+    min-height: 20vh;
     display: flex;
     bottom: 0px;
     width: auto;
     border-top: 2px solid #e9e9ea41;
+    padding: 0 70px;
+    background-color: $violeta;
+    color: $blanco;
 
-    .lista-redes {
-        list-style: none;
-        display: flex;
-        margin: auto;
-        justify-content: space-between;
-        width: 250px;
-        height: 30px;
-        padding: 0;
-        align-items: flex-end;
+    .footer-contactanos {
+        margin: 60px;
 
-        .logos-footer {
-            width: 30px;
-            height: 30px;
+        h2 {
+            font-size: 20px;
+            font-family: ZonaPro-Bold;
+        }
+
+        .lista-contactanos {
+            list-style: none;
+            padding: 0;
+
+            li {
+                display: flex;
+                margin-top: 25px;
+                opacity: (0.8);
+
+                &:hover {
+                    opacity: (1);
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
         }
     }
+
+    .footer-seguinos {
+        margin: 60px;
+
+        h2 {
+            font-size: 20px;
+            font-family: ZonaPro-Bold;
+        }
+
+        .lista-redes {
+            list-style: none;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+            width: 140px;
+            height: 40px;
+            padding: 0;
+            align-items: flex-end;
+
+            .logos-footer {
+                width: 30px;
+                height: 30px;
+                opacity: (0.8);
+
+                &:hover {
+                    opacity: (1);
+                }
+            }
+        }
+    }
+
 }
