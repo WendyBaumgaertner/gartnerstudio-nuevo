@@ -1,6 +1,7 @@
 .fondo-servicios {
     background-image: url(../recursos/fondo-servicios.png);
     min-height: 100vh;
+    background-size: cover;
 
     .main-servicios {
         min-height: 85vh;
@@ -26,6 +27,23 @@
             flex-direction: column;
             height: 600px;
             justify-content: space-around;
+
+            .item1{
+                animation-delay: 0.5s;
+            }
+
+            .item2{
+                animation-delay: 1s;
+            }
+
+            .item3{
+                animation-delay: 1.5s;
+            }
+
+            .item4{
+                animation-delay: 2s;
+            }
+            
 
             .accordion-item {
                 background-color: $violeta;

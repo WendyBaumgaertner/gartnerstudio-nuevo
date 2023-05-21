@@ -58,7 +58,7 @@
   justify-content: flex-end; }
 
 .banner-inicio {
-  background-image: url(../../recursos/backg-main.png);
+  background-image: url(../recursos/backg-main.png);
   height: 100vh;
   background-size: cover; }
   .banner-inicio .main-index {
@@ -78,7 +78,7 @@
       .banner-inicio .main-index .titulo-principal .animate__fadeInDown {
         animation-duration: 2s; }
     .banner-inicio .main-index .botones-index {
-      height: 220px;
+      height: 120px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -107,7 +107,7 @@
         width: 80px; }
 
 .fondo-sobrenosotros {
-  background-image: url(../../recursos/fondo-sobrenosotros.png);
+  background-image: url(../recursos/fondo-sobrenosotros.png);
   height: 100vh;
   background-size: cover; }
   .fondo-sobrenosotros .main-sobrenosotros {
@@ -145,7 +145,14 @@
   background-size: cover;
   background-attachment: fixed; }
   .fondo-proyectos .main-proyectos {
-    min-height: 85vh; }
+    min-height: 90vh; }
+    .fondo-proyectos .main-proyectos .wpp-float {
+      position: fixed;
+      right: 40px;
+      bottom: 30px; }
+      .fondo-proyectos .main-proyectos .wpp-float img {
+        height: 80px;
+        width: 80px; }
     .fondo-proyectos .main-proyectos .titulo-proyectos {
       font-family: ZonaPro-Bold;
       color: #e9e9ea;
@@ -160,33 +167,107 @@
       grid-template-rows: repeat(2, 1fr);
       grid-template-areas: "proyecto1 proyecto2" "proyecto3 proyecto4";
       width: 800px;
-      height: 800px;
+      height: 710px;
       grid-gap: 50px;
       margin: 20px auto; }
-      .fondo-proyectos .main-proyectos .img-proyectos .proyecto {
-        background-position: center;
-        background-size: cover;
-        border-radius: 10px; }
-        .fondo-proyectos .main-proyectos .img-proyectos .proyecto:hover {
-          transform: scale(1.1);
-          transition: 1.2s;
-          box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.178); }
       .fondo-proyectos .main-proyectos .img-proyectos .proyecto1 {
         grid-area: proyecto1;
-        background-image: url(../recursos/proyecto1.png); }
+        animation-delay: 0.5s; }
       .fondo-proyectos .main-proyectos .img-proyectos .proyecto2 {
         grid-area: proyecto2;
-        background-image: url(../recursos/proyecto2.png); }
+        animation-delay: 1s; }
       .fondo-proyectos .main-proyectos .img-proyectos .proyecto3 {
         grid-area: proyecto3;
-        background-image: url(../recursos/proyecto3.png); }
+        animation-delay: 1.5s; }
       .fondo-proyectos .main-proyectos .img-proyectos .proyecto4 {
         grid-area: proyecto4;
-        background-image: url(../recursos/proyecto4.png); }
+        animation-delay: 2s; }
+      .fondo-proyectos .main-proyectos .img-proyectos .proyecto {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        transition: all .3s ease-in; }
+        .fondo-proyectos .main-proyectos .img-proyectos .proyecto:hover .card-overlay {
+          opacity: 1; }
+        .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-img {
+          width: 100%;
+          height: 100%;
+          overflow: hidden; }
+          .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-img img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover; }
+        .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-overlay {
+          width: 100%;
+          height: 15%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          opacity: 0;
+          color: #e9e9ea;
+          background-color: #0814139a;
+          transition: .5s ease-in; }
+          .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-overlay p {
+            padding: 10px;
+            margin: 0; }
+
+.footer-proyectos {
+  min-height: 20vh;
+  display: flex;
+  bottom: 0px;
+  width: auto;
+  border-top: 2px solid #e9e9ea41;
+  padding: 0 70px;
+  background-color: #2a4647;
+  color: #e9e9ea; }
+  .footer-proyectos .footer-contactanos {
+    margin: 60px; }
+    .footer-proyectos .footer-contactanos h2 {
+      font-size: 20px;
+      font-family: ZonaPro-Bold; }
+    .footer-proyectos .footer-contactanos .lista-contactanos {
+      list-style: none;
+      padding: 0; }
+      .footer-proyectos .footer-contactanos .lista-contactanos li {
+        display: flex;
+        margin-top: 25px;
+        opacity: 0.8; }
+        .footer-proyectos .footer-contactanos .lista-contactanos li:hover {
+          opacity: 1; }
+        .footer-proyectos .footer-contactanos .lista-contactanos li img {
+          margin-right: 10px; }
+        .footer-proyectos .footer-contactanos .lista-contactanos li p {
+          margin: 0; }
+  .footer-proyectos .footer-seguinos {
+    margin: 60px; }
+    .footer-proyectos .footer-seguinos h2 {
+      font-size: 20px;
+      font-family: ZonaPro-Bold; }
+    .footer-proyectos .footer-seguinos .lista-redes {
+      list-style: none;
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+      width: 140px;
+      height: 40px;
+      padding: 0;
+      align-items: flex-end; }
+      .footer-proyectos .footer-seguinos .lista-redes .logos-footer {
+        width: 30px;
+        height: 30px;
+        opacity: 0.8; }
+        .footer-proyectos .footer-seguinos .lista-redes .logos-footer:hover {
+          opacity: 1; }
 
 .fondo-servicios {
   background-image: url(../recursos/fondo-servicios.png);
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-size: cover; }
   .fondo-servicios .main-servicios {
     min-height: 85vh;
     display: flex;
@@ -208,6 +289,14 @@
       flex-direction: column;
       height: 600px;
       justify-content: space-around; }
+      .fondo-servicios .main-servicios .ancho-ac .item1 {
+        animation-delay: 0.5s; }
+      .fondo-servicios .main-servicios .ancho-ac .item2 {
+        animation-delay: 1s; }
+      .fondo-servicios .main-servicios .ancho-ac .item3 {
+        animation-delay: 1.5s; }
+      .fondo-servicios .main-servicios .ancho-ac .item4 {
+        animation-delay: 2s; }
       .fondo-servicios .main-servicios .ancho-ac .accordion-item {
         background-color: #3c2b42;
         border: none;
@@ -447,10 +536,12 @@
       padding: 14px 0px;
       font-size: 14px;
       width: 380px; }
-  .footer-index .lista-redes .logos-footer {
-    width: 25px;
-    height: 25px;
-    align-items: center; }
+  .footer-index {
+    flex-direction: column; }
+    .footer-index .lista-redes .logos-footer {
+      width: 25px;
+      height: 25px;
+      align-items: center; }
   /* Sobre nosotros */
   .fondo-sobrenosotros {
     background-position: 830px; }
