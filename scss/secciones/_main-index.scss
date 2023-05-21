@@ -4,25 +4,27 @@
     background-size: cover;
 
     .main-index {
-        min-height: 85vh;
+        min-height: 90vh;
 
-        .titulo-principal {
-            height: 650px;
-            display: flex;
-            text-align: center;
-            color: $blanco;
-            font-size: 40px;
-            flex-direction: column;
-            margin: auto;
-            justify-content: center;
+        .container-titulo {
+            .titulo-principal {
+                height: 650px;
+                display: flex;
+                text-align: center;
+                color: $blanco;
+                font-size: 40px;
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
 
-            .nombre-negrita {
-                font-family: ZonaPro-Bold;
-                font-size: 85px;
-            }
+                .nombre-negrita {
+                    font-family: ZonaPro-Bold;
+                    font-size: 85px;
+                }
 
-            .animate__fadeInDown{
-                animation-duration: 2s;
+                .animate__fadeInDown {
+                    animation-duration: 2s;
+                }
             }
         }
 
@@ -60,8 +62,8 @@
             position: fixed;
             right: 40px;
             bottom: 30px;
-            
-            img{
+
+            img {
                 height: 80px;
                 width: 80px;
             }

@@ -71,8 +71,8 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
   background-size: cover; }
   .banner-inicio .main-index {
-    min-height: 85vh; }
-    .banner-inicio .main-index .titulo-principal {
+    min-height: 90vh; }
+    .banner-inicio .main-index .container-titulo .titulo-principal {
       height: 650px;
       display: flex;
       text-align: center;
@@ -81,10 +81,10 @@ body::-webkit-scrollbar-thumb {
       flex-direction: column;
       margin: auto;
       justify-content: center; }
-      .banner-inicio .main-index .titulo-principal .nombre-negrita {
+      .banner-inicio .main-index .container-titulo .titulo-principal .nombre-negrita {
         font-family: ZonaPro-Bold;
         font-size: 85px; }
-      .banner-inicio .main-index .titulo-principal .animate__fadeInDown {
+      .banner-inicio .main-index .container-titulo .titulo-principal .animate__fadeInDown {
         animation-duration: 2s; }
     .banner-inicio .main-index .botones-index {
       height: 120px;
@@ -605,11 +605,11 @@ body::-webkit-scrollbar-thumb {
     .header-principal .deg-navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
       width: 25px; }
   /* INDEX */
-  .banner-inicio .main-index .titulo-principal {
+  .banner-inicio .main-index .container-titulo .titulo-principal {
     height: 650px; }
-    .banner-inicio .main-index .titulo-principal .nombre-negrita {
+    .banner-inicio .main-index .container-titulo .titulo-principal .nombre-negrita {
       font-size: 40px; }
-    .banner-inicio .main-index .titulo-principal .subtitulo {
+    .banner-inicio .main-index .container-titulo .titulo-principal .subtitulo {
       font-size: 22px; }
   .banner-inicio .main-index .botones-index {
     flex-direction: column;
