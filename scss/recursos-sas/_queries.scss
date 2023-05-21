@@ -1,7 +1,6 @@
 @media (max-width: 992px) {
 
-    /* index */
-
+    /* HEADER */
 
     .header-principal {
         .deg-navbar {
@@ -64,10 +63,6 @@
                         font-family: ZonaPro-Bold;
                     }
                 }
-
-
-
-
             }
 
             .navbar-toggler {
@@ -78,10 +73,12 @@
         }
     }
 
+    /* INDEX */
+
     .banner-inicio {
         .main-index {
             .titulo-principal {
-                height: 600px;
+                height: 650px;
 
                 .nombre-negrita {
                     font-size: 40px;
@@ -94,14 +91,24 @@
 
             .botones-index {
                 flex-direction: column;
-                height: 115px;
+                height: 120px;
                 justify-content: space-between;
 
                 .btn-sp {
                     margin: auto;
                     padding: 14px 0px;
-                    font-size: 14px;
+                    font-size: 16px;
                     width: 380px;
+                }
+            }
+
+            .wpp-float {
+                right: 30px;
+                bottom: 20px;
+
+                img {
+                    height: 60px;
+                    width: 60px;
                 }
             }
         }
@@ -109,19 +116,78 @@
 
 
 
+    /* FOOTER VIOLETA*/
 
 
     .footer-index {
         flex-direction: column;
-        .lista-redes {
-            .logos-footer {
-                width: 25px;
-                height: 25px;
-                align-items: center;
+
+        .footer-contactanos {
+            margin: 50px 40px 5px 40px;
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .lista-contactanos {
+                li {
+                    p {
+                        font-size: 16px;
+                    }
+
+                }
+            }
+        }
+
+        .footer-seguinos {
+            margin: 40px;
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .lista-redes {
+                width: 170px;
+                margin: auto 0px;
             }
         }
     }
 
+    /* FOOTER VERDE*/
+
+    .footer-proyectos {
+        flex-direction: column;
+
+        .footer-contactanos {
+            margin: 50px 40px 5px 40px;
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .lista-contactanos {
+                li {
+                    p {
+                        font-size: 16px;
+                    }
+
+                }
+            }
+        }
+
+        .footer-seguinos {
+            margin: 40px;
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .lista-redes {
+                width: 170px;
+                margin: auto 0px;
+            }
+        }
+    }
 
 
 
@@ -145,6 +211,16 @@
                 margin-left: 60px;
                 padding-right: 39px;
             }
+
+            .wpp-float {
+                right: 30px;
+                bottom: 20px;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
         }
     }
 
@@ -152,6 +228,8 @@
 
     .fondo-proyectos {
         .main-proyectos {
+            min-height: 150vh;
+
             .titulo-proyectos {
                 font-size: 30px;
                 width: 400px;
@@ -162,6 +240,7 @@
                 grid-template-rows: repeat(4, 1fr);
                 width: 400px;
                 height: 1400px;
+                grid-gap: 25px;
                 grid-template-areas:
                     "proyecto1"
                     "proyecto2"
@@ -213,8 +292,15 @@
 
             }
 
+            .wpp-float {
+                right: 30px;
+                bottom: 20px;
 
-
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
         }
     }
 
@@ -223,31 +309,34 @@
     .fondo-contacto {
         .main-contacto {
 
-            .titulo-contacto{
+            .titulo-contacto {
                 font-size: 20px;
                 margin: 15px auto;
                 width: 380px;
             }
 
-            .form-general{
+            .form-general {
                 width: 380px;
 
-                .input-completar{
-                    .form-floating{
-                        .texto-input{
+                .input-completar {
+                    .form-floating {
+                        .texto-input {
                             font-size: 12px;
                         }
                     }
                 }
-                .check-list{
-                    .check-servicios{
-                        .check-serv{
-                            .label-serv{
+
+                .check-list {
+                    .check-servicios {
+                        .check-serv {
+                            .label-serv {
                                 width: 80px;
+
                                 img {
                                     width: 40px;
                                     height: 40px;
                                 }
+
                                 p {
                                     font-size: 10px;
                                 }
@@ -256,19 +345,31 @@
                     }
                 }
 
-                .input-selectarea{
-                    .input-group{
-                        .tx-area{
-                            &::placeholder{
+                .input-selectarea {
+                    .input-group {
+                        .tx-area {
+                            &::placeholder {
                                 font-size: 12px;
-                                color: $blanco;
                             }
                         }
                     }
                 }
             }
+
+            .wpp-float {
+                right: 30px;
+                bottom: 20px;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
         }
     }
+
+
+
 
 
 }
