@@ -79,3 +79,13 @@
     }
 
 }
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #7c7c7c;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: $blanco;
+    border-radius: 5px;
+}

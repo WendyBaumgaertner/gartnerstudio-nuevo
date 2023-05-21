@@ -57,6 +57,14 @@
   background-image: linear-gradient(#030303c7, #08141300);
   justify-content: flex-end; }
 
+body::-webkit-scrollbar {
+  width: 7px;
+  background: #7c7c7c; }
+
+body::-webkit-scrollbar-thumb {
+  background: #e9e9ea;
+  border-radius: 5px; }
+
 .banner-inicio {
   background-image: url(../recursos/backg-main.png);
   height: 100vh;
@@ -201,7 +209,10 @@
             position: absolute;
             top: 0;
             left: 0;
-            object-fit: cover; }
+            object-fit: cover;
+            transition: 2s; }
+            .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-img img:hover {
+              transform: scale(1.2); }
         .fondo-proyectos .main-proyectos .img-proyectos .proyecto .card-overlay {
           width: 100%;
           height: 15%;
