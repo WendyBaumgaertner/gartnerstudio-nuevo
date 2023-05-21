@@ -20,10 +20,11 @@
     margin: 10px 0 10px 0px; }
     .header-principal .navbar .navbar-brand img {
       height: 40px; }
-  .header-principal .navbar .navbar-toggler:focus {
-    box-shadow: none; }
-  .header-principal .navbar .navbar-toggler .navbar-toggler-icon {
-    background-image: url(../recursos/menu-hamb.png); }
+  .header-principal .navbar .navbar-toggler {
+    box-shadow: none;
+    border: none; }
+    .header-principal .navbar .navbar-toggler .navbar-toggler-icon {
+      background-image: url(../recursos/menu-hamb.png); }
 
 .header-principal .navbar-expand-lg {
   justify-content: flex-end; }
@@ -571,39 +572,37 @@ body::-webkit-scrollbar-thumb {
   /* HEADER */
   .header-principal .deg-navbar {
     margin: auto; }
-    .header-principal .deg-navbar .offcanvas {
+    .header-principal .deg-navbar .container-fluid .offcanvas {
       background-color: #3c2b42;
       width: 200px; }
-      .header-principal .deg-navbar .offcanvas .offcanvas-header .btn-close {
-        background-image: url(/recursos/close-icon.svg);
-        background-size: 25px;
-        box-shadow: none; }
-      .header-principal .deg-navbar .offcanvas .offcanvas-body {
+      .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-header .btn-close {
+        background-image: url(../recursos/close-icon.svg);
+        background-size: 20px;
+        box-shadow: none;
+        border: none; }
+      .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body {
         padding: 20px 0; }
-        .header-principal .deg-navbar .offcanvas .offcanvas-body .navbar-nav {
-          width: 320px;
-          height: 190px; }
-    .header-principal .deg-navbar .navbar-brand img {
+        .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav {
+          width: 315px;
+          height: 190px;
+          justify-content: space-around; }
+          .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .marcador-actual {
+            text-align: center;
+            width: 300px;
+            background-color: #501c1a;
+            padding: 3px 5px;
+            border-radius: 5px;
+            font-size: 14px; }
+          .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .marcador {
+            font-size: 14px;
+            text-align: center; }
+            .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .marcador:hover {
+              width: 300px; }
+            .header-principal .deg-navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .marcador .pag-actual {
+              font-family: ZonaPro-Bold; }
+    .header-principal .deg-navbar .container-fluid .navbar-brand img {
       height: 35px; }
-    .header-principal .deg-navbar .navbar-nav {
-      height: 200px;
-      width: 100vw;
-      justify-content: space-around; }
-      .header-principal .deg-navbar .navbar-nav .marcador-actual {
-        text-align: center;
-        width: 300px;
-        background-color: #501c1a;
-        padding: 3px 5px;
-        border-radius: 20px;
-        font-size: 14px; }
-      .header-principal .deg-navbar .navbar-nav .marcador {
-        font-size: 14px;
-        text-align: center; }
-        .header-principal .deg-navbar .navbar-nav .marcador:hover {
-          width: 300px; }
-        .header-principal .deg-navbar .navbar-nav .marcador .pag-actual {
-          font-family: ZonaPro-Bold; }
-    .header-principal .deg-navbar .navbar-toggler .navbar-toggler-icon {
+    .header-principal .deg-navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
       width: 25px; }
   /* INDEX */
   .banner-inicio .main-index .titulo-principal {
@@ -652,16 +651,19 @@ body::-webkit-scrollbar-thumb {
     .footer-proyectos .footer-contactanos {
       margin: 50px 40px 5px 40px; }
       .footer-proyectos .footer-contactanos h2 {
-        font-size: 16px; }
+        font-size: 14px; }
       .footer-proyectos .footer-contactanos .lista-contactanos li p {
-        font-size: 16px; }
+        font-size: 13px; }
     .footer-proyectos .footer-seguinos {
       margin: 40px; }
       .footer-proyectos .footer-seguinos h2 {
-        font-size: 16px; }
+        font-size: 14px; }
       .footer-proyectos .footer-seguinos .lista-redes {
         width: 170px;
         margin: auto 0px; }
+        .footer-proyectos .footer-seguinos .lista-redes .logos-footer {
+          width: 25px;
+          height: 25px; }
   /* Sobre nosotros */
   .fondo-sobrenosotros {
     background-position: 830px; }
@@ -682,7 +684,7 @@ body::-webkit-scrollbar-thumb {
         width: 60px; }
   /* Proyectos */
   .fondo-proyectos .main-proyectos {
-    min-height: 165vh; }
+    min-height: 170vh; }
     .fondo-proyectos .main-proyectos .titulo-proyectos {
       font-size: 30px;
       width: 400px; }
@@ -693,6 +695,12 @@ body::-webkit-scrollbar-thumb {
       height: 1400px;
       grid-gap: 25px;
       grid-template-areas: "proyecto1" "proyecto2" "proyecto3" "proyecto4"; }
+    .fondo-proyectos .main-proyectos .wpp-float {
+      right: 30px;
+      bottom: 20px; }
+      .fondo-proyectos .main-proyectos .wpp-float img {
+        height: 60px;
+        width: 60px; }
   /* Servicios */
   .fondo-servicios .main-servicios .titulo-servicios {
     font-size: 30px;

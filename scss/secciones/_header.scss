@@ -18,9 +18,8 @@
         }
 
         .navbar-toggler {
-            &:focus {
                 box-shadow: none;
-            }
+                border: none;
 
             .navbar-toggler-icon {
                 background-image: url(../recursos/menu-hamb.png);

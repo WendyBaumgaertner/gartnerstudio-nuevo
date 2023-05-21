@@ -6,71 +6,69 @@
         .deg-navbar {
             margin: auto;
 
-            .offcanvas {
-                background-color: $violeta;
-                width: 200px;
+            .container-fluid {
+                .offcanvas {
+                    background-color: $violeta;
+                    width: 200px;
 
-                .offcanvas-header {
-                    .btn-close {
-                        background-image: url(/recursos/close-icon.svg);
-                        background-size: 25px;
-                        box-shadow: none;
+                    .offcanvas-header {
+                        .btn-close {
+                            background-image: url(../recursos/close-icon.svg);
+                            background-size: 20px;
+                            box-shadow: none;
+                            border: none;
+                        }
+                    }
+
+                    .offcanvas-body {
+                        padding: 20px 0;
+
+                        .navbar-nav {
+                            width: 315px;
+                            height: 190px;
+                            justify-content: space-around;
+
+                            .marcador-actual {
+                                text-align: center;
+                                width: 300px;
+                                background-color: $bordo;
+                                padding: 3px 5px;
+                                border-radius: 5px;
+                                font-size: 14px;
+                            }
+
+                            .marcador {
+                                font-size: 14px;
+                                text-align: center;
+
+                                &:hover {
+                                    width: 300px;
+                                }
+
+
+
+                                .pag-actual {
+                                    font-family: ZonaPro-Bold;
+                                }
+                            }
+                        }
                     }
                 }
 
-                .offcanvas-body {
-                    padding: 20px 0;
-
-                    .navbar-nav {
-                        width: 320px;
-                        height: 190px;
+                .navbar-brand {
+                    img {
+                        height: 35px;
                     }
                 }
 
-            }
-
-            .navbar-brand {
-                img {
-                    height: 35px;
-                }
-            }
-
-            .navbar-nav {
-                height: 200px;
-                width: 100vw;
-                justify-content: space-around;
-
-                .marcador-actual {
-                    text-align: center;
-                    width: 300px;
-                    background-color: $bordo;
-                    padding: 3px 5px;
-                    border-radius: 20px;
-                    font-size: 14px;
-                }
-
-                .marcador {
-                    font-size: 14px;
-                    text-align: center;
-
-                    &:hover {
-                        width: 300px;
+                .navbar-toggler {
+                    .navbar-toggler-icon {
+                        width: 25px;
                     }
-
-
-
-                    .pag-actual {
-                        font-family: ZonaPro-Bold;
-                    }
-                }
-            }
-
-            .navbar-toggler {
-                .navbar-toggler-icon {
-                    width: 25px;
                 }
             }
         }
+
     }
 
     /* INDEX */
@@ -167,13 +165,13 @@
             margin: 50px 40px 5px 40px;
 
             h2 {
-                font-size: 16px;
+                font-size: 14px;
             }
 
             .lista-contactanos {
                 li {
                     p {
-                        font-size: 16px;
+                        font-size: 13px;
                     }
 
                 }
@@ -184,12 +182,17 @@
             margin: 40px;
 
             h2 {
-                font-size: 16px;
+                font-size: 14px;
             }
 
             .lista-redes {
                 width: 170px;
                 margin: auto 0px;
+
+                .logos-footer {
+                    width: 25px;
+                    height: 25px;
+                }
             }
         }
     }
@@ -233,7 +236,7 @@
 
     .fondo-proyectos {
         .main-proyectos {
-            min-height: 165vh;
+            min-height: 170vh;
 
             .titulo-proyectos {
                 font-size: 30px;
@@ -252,6 +255,16 @@
                     "proyecto3"
                     "proyecto4"
                 ;
+            }
+
+            .wpp-float {
+                right: 30px;
+                bottom: 20px;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
             }
 
         }
@@ -372,7 +385,6 @@
             }
         }
     }
-
 
 
 
