@@ -679,7 +679,7 @@ body::-webkit-scrollbar-thumb {
         width: 60px; }
   /* Proyectos */
   .fondo-proyectos .main-proyectos {
-    min-height: 150vh; }
+    min-height: 165vh; }
     .fondo-proyectos .main-proyectos .titulo-proyectos {
       font-size: 30px;
       width: 400px; }
