@@ -4,11 +4,22 @@
     background-size: cover;
 
     .main-servicios {
-        min-height: 85vh;
+        min-height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
+
+        .wpp-float {
+            position: fixed;
+            right: 40px;
+            bottom: 30px;
+
+            img {
+                height: 80px;
+                width: 80px;
+            }
+        }
 
         .titulo-servicios {
             font-family: ZonaPro-Bold;
