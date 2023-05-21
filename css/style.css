@@ -633,16 +633,19 @@ body::-webkit-scrollbar-thumb {
     .footer-index .footer-contactanos {
       margin: 50px 40px 5px 40px; }
       .footer-index .footer-contactanos h2 {
-        font-size: 16px; }
+        font-size: 14px; }
       .footer-index .footer-contactanos .lista-contactanos li p {
-        font-size: 16px; }
+        font-size: 13px; }
     .footer-index .footer-seguinos {
       margin: 40px; }
       .footer-index .footer-seguinos h2 {
-        font-size: 16px; }
+        font-size: 14px; }
       .footer-index .footer-seguinos .lista-redes {
         width: 170px;
         margin: auto 0px; }
+        .footer-index .footer-seguinos .lista-redes .logos-footer {
+          width: 25px;
+          height: 25px; }
   /* FOOTER VERDE*/
   .footer-proyectos {
     flex-direction: column; }
